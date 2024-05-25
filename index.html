@@ -1,0 +1,200 @@
+
+<html long="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta none="viewport" content="width=device-width,initial-scale=1.0">
+        <title>последний богатырь</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/itc-slider (1).css">
+        <link rel="stylesheet" href="css/animated-accordion.css">
+    </head>
+    <body>
+     <header >
+        <header class="header">
+            <div class="container container_header"></div>
+
+
+
+            <nav class="nav">
+                <h4 class="logo"></h4>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="" class="nav__link">чать 1</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">часть 2</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">часть 3</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+            </nav>
+        </header>
+        
+
+        </div>
+       <button class="btn__menu" id="btn__menu" onclick="menu()">меню</button> 
+       <div class="header__menu">
+        <ul class="menu__list">
+        <li class="menu__item"><a bref="" class="menu__link">вход</a></li>
+        <li class="menu__item"><a bref="" class="menu__link">корзина</a></li>
+        <li class="menu__item"><a bref="" class="menu__link"> акции</a></li>
+        <li class="menu__item"><a bref="" class="menu__link"> каталог</a></li>
+        <li class="menu__item">
+            <div class=" theme">
+                <h4 class="theme__title">смена темы</h4>
+                <ul class="theme__list">
+                    <li class="theme__item">
+                        <div class="theme__light" onclick="choiceLight()"></div>
+                    </li>
+
+                    <li class="theme__item">
+                        <div class="theme__dark" onclick="choiceDark()"></div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        </ul>
+       </div>
+     </header>
+     <main>
+        <section  class="shop">
+            <div class="container">
+                <h1 class="shop__title">последний богатырь</h1>
+                <img src="img/tovar.~" alt="" class="shop__img">
+                <h2 class="shop__title">описание</h2>
+                <p class="shop__text">Последний богатырь.2017.1080p.WEB-DL.Rus. Иван, обычный парень, 
+                    по воле случая переносится из современной Москвы в фантастическую страну Белогорье.
+                     В этом параллельном мире живут герои русских сказок,
+                     волшебство — неотъемлемая часть быта,
+                     а спорные вопросы решаются битвой на богатырских мечах. Неожиданно Иван оказывается в самом центре борьбы светлых и темных сил, вот только непонятно,
+                     почему главная роль в происходящих событиях, по всеобщему мнению, уготована именно ему
+                    </p>
+                    <h2 class="shop__title">цена</h2>
+                    <p class="shop__price">300 p.</p>
+                    <button class="shop__bth" id="btn" onclick="buy()">купить </button>
+
+            </div>
+        </section>
+        <section class="slider">
+            <div class="container">
+            <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider-wrapper">
+                    <div class="itc-slider-items">
+                        <div class="itc-slider-item">
+                            <img src="img/slider1.jpg" alt="" class="slider-img">
+                      </div>
+                        <div class="itc-slider-item"> 
+                            <img src="img/slider2.jpg" alt="" class="slider-img">
+                        </div>
+                        <div class="itc-slider-item"> 
+                            <img src="img/slider3.jpg" alt="" class="slider-img">
+                        </div>
+                       
+                            
+
+                    </div>
+                </div>
+                <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                <button class="itc-slider-btn itc-slider-btn-next"> </button>
+            </div>
+            
+
+        </section>
+        <section class="video">
+            <div class="container">
+                <video id="myvideo" autoplay muted loop >
+                    <source src="video/video0.mp4" type="video/mp4" class="video__src">
+                </video>
+                <div class="video__content">
+                   
+                        <h2 class="video__title">танец для великанши</h2>
+                        <p class="video__text">песня какая то</p>
+                        <div class="video__btn-list">
+                            <button onclick="play()" id="pause" class="video__btn">пауза</button>
+                            <button onclick="mute()" id="mute" class="video__btn">пауза</button>
+                            <button onclick="prev()" id="prev" class="video__btn">prev</button>
+                            <button onclick="next()" id="next" class="video__btn">next</button>
+                        </div>
+                    
+            </div>
+            </div>
+            
+        </section>
+        <section class="acc">
+            <div class="container">
+                <div class="accordion" id="accordion-1">
+                  
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            <h3 class="accordion__title">иван</h3>
+                        </div>
+                    
+                        <div class="accordion__body">
+                            <p class="accordion__text">Главный герой фильма – эксцентричный молодой человек по имени Иван. Он живет в Москве и практикует магию. Как-то раз, выполняя просьбу одной клиентки, он сталкивается с определенными неприятностями. В попытках убежать от них Иван неожиданно попадает в Белогорье, волшебный мир, который населяют герои русских сказок и фольклора.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            <h3 class="accordion__title">баба яга</h3>
+                        </div>
+                    
+                        <div class="accordion__body">
+                            <p class="accordion__text">Баба-яга Кощей Околдованные богатыри Кикиморы Колобок. Водяной Рыба-кит Избушка Чудо-юдо Жар-птицы. Баба-яга. Кощей. Околдованные богатыри. ... На съемках «Последнего богатыря» команда Горшенина гримировала двух персонажей одновременно и укладывалась при этом в два с половиной часа. Баба-яга. Баба-яга в фильме не коварная злодейка, она древняя знахарка и очень обаятельный персонаж. Поэтому требовалось создать добрый и немного гротескный образ. Кроме того, Яга по сюжету меняет возраст. Молодую Ягу сыграла Светлана Колпакова, для роли ей пришлось примерить крючковатый нос. А вот Елена Яковлева весь фильм ходила в парике и полном пластическом гриме. Скрыть.</p>
+
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <div class="accordion__header">
+                            <h3 class="accordion__title">калобок</h3>
+                        </div>
+                    
+                        <div class="accordion__body">
+                            <p class="accordion__text">Колобок вообще активно дерется: раскидывает богатырей и даже принимает участие в испытаниях на городской площади. Все это, конечно же, Гарик Харламов сыграть не мог, хотя актер и появлялся пару раз на съемочной площадке для съемки эмоций. Все активности Колобка отыгрывал баскетбольный мяч на швабре в руках двух VFX-супервайзеров и ассистента. ... «Последний богатырь: Корень зла» попал в топ-20 самых кассовых фильмов мирового проката за 2021 год. «Последний богатырь: Корень зла» попал в топ-20 самых кассовых фильмов мирового проката за 2021 год. 5 апреля 2021 9. Главное сегодня. .</p>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="maps">
+            <div class="container">
+                <h2 class="maps__title">карты</h2>
+                <div class="google">
+                    <h3 class="google__tutle">гугл карта</h3>
+                    <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6205.483141304202!2d47.949988754643684!3d56.64038858878535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4159953936b5c303%3A0x2ca94857a8bfc019!2z0JTQtdGC0YHQutCw0Y8g0YDQtdGB0L_Rg9Cx0LvQuNC60LDQvdGB0LrQsNGPINC60LvQuNC90LjRh9C10YHQutCw0Y8g0LHQvtC70YzQvdC40YbQsA!5e0!3m2!1sru!2sru!4v1707556968193!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="yandex"></div>
+                <h3 class="yandex__title">яндекс карты</h3>
+                <iframe style="width: 100%;" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad073f8b0f56a2ac5780b4c6b033f4ca40fa04de0de3b3914a9877a68f8f4bb76&amp;source=constructor" width="603" height="443" frameborder="0"></iframe>
+            </div>
+        </section>
+<section class="clock">
+    <div class="container">
+        <p class="time">
+
+        </p>
+    </div>
+</section>
+ <button class="basket">
+    <img src="img/img2.png" alt="" class="basket__img">
+    <p class="price">0</p>
+ </button>
+     </main>
+     <footer class="footer">
+        <div class="container container-footer">
+            <p class="footer_text">2022.</p>
+        </div>
+
+     </footer>
+     <script src="js/index.js"></script>
+     <script src="js/itc-slider.js"></script>
+     <script src="js/menu.js"></script>
+  
+   <script src="js/animated-accordion.js"></script>
+   <script src="js/theme.js"></script>
+   <script src="js/time.js"></script>
+   <script src="js/video-player.js"></script>
+
+    </body>
+</html>
+

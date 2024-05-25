@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.shop__img{
+    width: 100%;
+}
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+.header__menu{
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(202, 140, 140);
+  padding: 15px 10px;
+  width: 170px;
+  height: 200px;
+  border: 20px;
+  display: none;
+}
+.menu__list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__link{
+    text-decoration: none;
+    color: rgb(247, 202, 202);
+}
+.is-active{
+    display: block;
+}
+
+.maps{
+    background-color: darkolivegreen;
+    padding: 50px 0;
+}
+.maps__title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(204, 204, 204);
+}
+.google__title ,.yandex__title{
+    text-align: center;
+font-size: 30px;
+color: rgb(146, 185, 107);
+}
+.header{
+    background-color: rgb(187, 187, 187);
+}
+.container__header{
+    padding: 50px 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 60px;
+    color: rgb(87, 77, 77);
+    padding: 20px ;
+    border-radius: 20px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(155, 155, 155);
+}
+.container-footer{
+    padding: 50px;
+}
+.footer__text{
+    text-align: center;
+    color: rgb(87, 81, 81);
+    font-size: 30px;
+    margin: 0;
+}
+.theme__light{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: azure;
+    cursor: pointer;
+}
+.theme__dark{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color:rgb(134, 124, 124);
+
+    cursor: pointer;
+}
+.theme__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.burger__line{
+    width: 20px;
+    height: 2px;
+    background-color: rgb(110, 110, 110);
+    border: 1px solid white;
+    margin-bottom: 5px;
+}
+.video__content{
+    position: absolute;
+    bottom: 0;
+   width: 71.6%;
+    background: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    padding: 60px;
+    box-sizing: border-box;
+  
+    
+}
+.video{
+    position: relative;
+    
+}
+#myvideo{
+    width: 100%;
+}
+.basket{
+    width: 150px;
+    height: 150px;
+    padding: 20px ;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 5px  solid pink;
+    cursor: progress;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    
+}
+.basket__img{
+    width: 90%;
+    
+}
+@media screen and (max-width:1000px) {
+    .nav__list{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
